@@ -23,7 +23,7 @@ const HomeOne = () => {
       <AboutArea />
       <ServicesArea />
       <ProjectArea />
-      <TestimonialArea />
+      {/* <TestimonialArea /> */}
       {/* <RankArea /> */}
       <PriceArea />
       </main> 

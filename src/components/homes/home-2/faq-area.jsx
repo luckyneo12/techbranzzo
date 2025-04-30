@@ -8,7 +8,7 @@ import img from "../../../../public/assets/img/faq/faq-1.png"
 const faq_content = {
     sub_title: "Support",
     title: <>Frequently <br /> Asked Questions</>,
-    description: <>Sed ut perspiciatis unde omnis iste natus error <br /> sit voluptatem accusantium.!</>,
+    description: <>What makes this plan ideal for you? <br /> This plan is designed to empower startups and growing businesses with essential tools, seamless invoicing, and real-time collaboration to drive growth efficiently.</>,
     btn_text: "Get in Touch",
 }
 const {sub_title, title, description, btn_text }  = faq_content

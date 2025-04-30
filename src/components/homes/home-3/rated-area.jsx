@@ -2,9 +2,9 @@ import BlurStart from '@/src/svg/blur-start';
 import React from 'react';
 import Image from 'next/image';
 
-import author_img_1 from "../../../../public/assets/img/rate/rate-logo-1.png"
-import author_img_2  from "../../../../public/assets/img/rate/rate-logo-2.png"
-import author_img_3 from "../../../../public/assets/img/rate/rate-logo-3.png"
+import author_img_1 from "../../../../public/assets/img/project/project-school.png"
+import author_img_2  from "../../../../public/assets/img/project/urbanshine.png"
+import author_img_3 from "../../../../public/assets/img/project/logo-khushali.png"
 
 import img_1 from "../../../../public/assets/img/rate/rate-shape-1.png"
 import img_2 from "../../../../public/assets/img/rate/rate-shape-2.png"
@@ -83,8 +83,8 @@ const RatedArea = () => {
                                             <span><i className="fas fa-star"></i></span>
                                         </div>
                                         <p>{item.title}</p>
-                                        <div className="author-rated-logo">
-                                            <Image src={item.img} alt="author logo"/>
+                                        <div className="author-rated-logo ">
+                                            <Image src={item.img} alt="author logo" style={{ objectFit: 'contain',height:'100px', }} />
                                         </div>
                                     </div>
                                 </div>

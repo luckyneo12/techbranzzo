@@ -1,24 +1,24 @@
 
 import project_img_1 from "../../public/assets/img/project/project-img-solar.png";
-import project_brand_1 from "../../public/assets/img/project/project-brand-1.png";
+import project_brand_1 from "../../public/assets/img/project/logo-khushali.png";
 
 import project_img_2 from "../../public/assets/img/project/project-img-stk.png";
 import project_brand_2 from "../../public/assets/img/project/project-img-stk1.png";
 
 import project_img_3 from "../../public/assets/img/project/project-img-3.jpg";
-import project_brand_3 from "../../public/assets/img/project/project-brand-4.png";
+import project_brand_3 from "../../public/assets/img/project/urbanshine.png";
 
 import project_img_4 from "../../public/assets/img/project/project-img-4.png";
 import project_brand_4 from "../../public/assets/img/project/project-school.png";
 
 import project_img_5 from "../../public/assets/img/project/project-img-2.jpg";
-import project_brand_5 from "../../public/assets/img/project/project-brand-1.png";
+import project_brand_5 from "../../public/assets/img/project/drivisory.png";
 
-import project_img_6 from "../../public/assets/img/project/project-img-1.jpg";
-import project_brand_6 from "../../public/assets/img/project/project-brand-2.png";
+import project_img_6 from "../../public/assets/img/project/tradeoxi-image.png";
+import project_brand_6 from "../../public/assets/img/project/tradeoxi.jpg";
 
-import project_img_7 from "../../public/assets/img/project/project-img-3.jpg";
-import project_brand_7 from "../../public/assets/img/project/project-brand-4.png";
+import project_img_7 from "../../public/assets/img/project/triohub-image.png";
+import project_brand_7 from "../../public/assets/img/project/Triohub.png";
 
 import project_img_8 from "../../public/assets/img/project/project-img-4.jpg";
 import project_brand_8 from "../../public/assets/img/project/project-brand-2.png";

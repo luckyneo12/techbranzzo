@@ -93,24 +93,33 @@ const TestimonialArea = () => {
                               }`}>
                            {testimonial_data.slice(12, 25).map((item, i) =>
                               <SwiperSlide key={i} className="tp-testimonial-five-item">
-                                 <div className="tp-testimonial-five-wrapper d-flex justify-content-between align-items-center">
-                                    <div className="tp-testimonial-five-top-info d-flex align-items-center">
-                                       <div className="tp-testimonial-five-avata">
-                                          <Image src={item.author_img} alt="theme-pure" />
-                                       </div>
-                                       <div className="tp-testimonial-five-author-info">
-                                          <h4>{item.name}</h4>
-                                          <span>{item.title}</span>
-                                       </div>
-                                    </div>
-                                    <div className="tp-testimonial-five-brand d-none d-sm-block">
-                                       <Image src={item.brand_icon} alt="theme-pure" />
-                                    </div>
-                                 </div>
-                                 <div className="tp-testimonial-five-content">
-                                    <p>{item.description}</p>
-                                 </div>
-                              </SwiperSlide>
+                              <div className="tp-testimonial-five-wrapper d-flex justify-content-between align-items-center">
+                                
+                                <div className="tp-testimonial-five-top-info d-flex align-items-center">
+                                  <div className="tp-testimonial-five-avata">
+                                    <Image src={item.author_img} alt={`${item.name}'s photo`} />
+                                  </div>
+                                  <div className="tp-testimonial-five-author-info">
+                                    <h4>{item.name}</h4>
+                                    <span>{item.title}</span>
+                                  </div>
+                                </div>
+                            
+                                {/* Brand logo container */}
+                                <div className="tp-testimonial-five-brand d-none d-sm-block" style={{ width: '100px', height: '100px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                                  <Image 
+                                    src={item.brand_icon} 
+                                    alt={`${item.name}'s company logo`} 
+                                    style={{ maxWidth: '100%', maxHeight: '100%', objectFit: 'contain' }} 
+                                  />
+                                </div>
+                              </div>
+                            
+                              <div className="tp-testimonial-five-content">
+                                <p>{item.description}</p>
+                              </div>
+                            </SwiperSlide>
+                            
                            )
                            }
                         </Swiper>

@@ -6,33 +6,33 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 const pricing_data_monthly = {
-   header_text: <>You pay <span>$59.00/mo</span> today Renews <br /> April  2024 For <span>$69.00/mo</span></>,
+   header_text: <>You pay <span>₹4,999/mo</span> today. Renews <br /> May 2025 for <span>₹6,499/mo</span></>,
    // price header data 
    price_header: [
       {
          id: 1,
-         title: "STARTER",
-         description: <>Collect more submissions, <br /> access most of the features</>,
-         price: 18,
-         price_yearly: 36,
+         title: "Basic Suite",
+         description: <>Ideal for startups: <br /> website, social media & support</>,
+         price: "4,999",
+         price_yearly: 4999 * 12 * 0.85, // 15% off for yearly
          date: "Billed monthly",
          active: "",
       },
       {
          id: 2,
-         title: "Advance",
-         description: <>Collect more submissions, <br /> access most of the features</>,
-         price: 19,
-         price_yearly: 59,
+         title: "Business Pro",
+         description: <>Complete digital package: <br /> Website, CRM,Application,Digital Marketing & Support</>,
+         price: "40,500",
+         price_yearly: 40500 * 12 * 0.85,
          date: "Billed monthly",
          active: "active",
       },
       {
          id: 3,
-         title: "Team Plan",
-         description: <>Collect more submissions, <br /> access most of the features</>,
-         price: 14,
-         price_yearly: 99,
+         title: "Enterprise Suite",
+         description: <>Scalable services: <br /> BPM, advanced CRM, RPO</>,
+         price: "19,999",
+         price_yearly: 9999 * 12 * 0.85,
          date: "Billed monthly",
          active: "",
       },
@@ -42,30 +42,29 @@ const pricing_data_monthly = {
    price_feature: [
       {
          id: 1,
-         title: "Team",
-         notice: <>Add gradient heading, button, pricing table testimonial etc.</>
+         title: "Team Size",
+         notice: <>Maximum number of users who can collaborate under this plan.</>
       },
       {
          id: 2,
-         title: "Installed Agent",
-         notice: <>Add gradient heading, button, pricing table testimonial etc.</>
+         title: "CRM Access",
+         notice: <>Access to our customized CRM tools and dashboards.</>
       },
       {
          id: 3,
-         title: "Real-Time Feedback",
-         notice: <>Add gradient heading, button, pricing table testimonial etc.</>
+         title: "Mobile App",
+         notice: <>Includes basic or advanced app development based on the plan.</>
       },
       {
          id: 4,
-         title: "Adding Time Manually",
-         notice: <>Add gradient heading, button, pricing table testimonial etc.</>
+         title: "Support & Maintenance",
+         notice: <>Access to support channels and monthly updates.</>
       },
       {
          id: 5,
-         title: "Video Dedicated Support",
-         notice: <>Add gradient heading, button, pricing table testimonial etc.</>
+         title: "Dedicated Account Manager",
+         notice: <>Get a dedicated expert for project and client management.</>
       },
-
    ],
 
    // price feature info
@@ -74,40 +73,36 @@ const pricing_data_monthly = {
          id: 1,
          active: "",
          info: [
-            "02",
-            "12",
-            "Limited",
-            "100",
-            "Limited",
+            "5",
+            "Basic",
+            "Not Included",
+            "Standard",
+            "No",
          ]
-
       },
       {
          id: 2,
          active: "active",
          info: [
-            "02",
-            "12",
-            "Limited",
-            "100",
-            "Limited",
+            "15",
+            "Advanced",
+            "Included",
+            "24/7 Priority",
+            "Yes",
          ]
-
       },
       {
          id: 3,
          active: "",
          info: [
-            "02",
-            "12",
-            "Limited",
-            "100",
-            "Limited",
+            "Unlimited",
+            "Full Suite",
+            "Included",
+            " Priority",
+            "Yes",
          ]
-
       },
    ]
-
 
 }
 const {  header_text, price_header, price_feature, price_feature_info } = pricing_data_monthly
@@ -146,7 +141,7 @@ const PriceArea = () => {
                                                 <p>{item.description}</p>
                                              </div>
                                              <div className="tp-price-top-title-wrapper">
-                                                <h4>${item.price} <span>/mo</span></h4>
+                                                <h4>₹{item.price} <span>/mo</span></h4>
                                                 <p>{item.date}</p>
                                                 <Link className="tp-btn-service" href="#">Get Started</Link>
                                              </div>

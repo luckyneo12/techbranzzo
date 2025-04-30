@@ -2,11 +2,11 @@ import React, {useRef} from 'react';
 import Image from 'next/image';
 import Slider from 'react-slick';
 
-import brand_img_1 from "../../../../public/assets/img/hero/hero-slider-icon-2.jpg";
-import brand_img_2 from "../../../../public/assets/img/hero/hero-slider-icon-3.jpg";
-import brand_img_3 from "../../../../public/assets/img/hero/hero-slider-icon-4.jpg";
-import brand_img_4 from "../../../../public/assets/img/hero/hero-slider-icon-5.jpg";
-import brand_img_5 from "../../../../public/assets/img/hero/hero-slider-icon-3.jpg";
+import brand_img_1 from "../../../../public/assets/img/project/logo-khushali.png";
+import brand_img_2 from "../../../../public/assets/img/project/drivisory.png";
+import brand_img_3 from "../../../../public/assets/img/project/project-img-stk1.png";
+import brand_img_4 from "../../../../public/assets/img/project/project-school.png";
+import brand_img_5 from "../../../../public/assets/img/project/Triohub.png";
 import shape_1 from "../../../../public/assets/img/brand/image_01.png";
 import shape_2 from "../../../../public/assets/img/hero/hero-slider-icon-1.jpg";
 
@@ -78,7 +78,7 @@ const BrandArea = () => {
                               <div className="tp-barnd-icon">
                                  <Image src={shape_2} alt="theme-pure" />
                               </div>
-                              <h5 className="tp-barnd-title-sm">2k Companies <br /> Trusted in the world</h5>
+                              <h5 className="tp-barnd-title-sm">Varoius Companies <br /> Trusted in the world</h5>
                            </div>
                         </div>
                         <div className="col-xl-8 col-lg-8">

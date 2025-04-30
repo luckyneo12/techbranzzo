@@ -22,7 +22,7 @@ const HomeThree = () => {
       <CardArea />
       <SalesArea />
       <TestimonialArea />
-      <IntegrationArea />
+      {/* <IntegrationArea /> */}
       <BlogArea />
       <FooterThree />
     </>

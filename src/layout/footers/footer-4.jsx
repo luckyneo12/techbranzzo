@@ -20,7 +20,7 @@ const footer_content = {
    location: <>Omega Tower 4th-Floor,<br />Indore ,Madhya Pradesh ,India</>,
 
    footer_lisks: [
-      { name: "Damo page", link: "#" },
+      { name: "Home", link: "#" },
       { name: "FAQ", link: "/faq" },
       { name: "About", link: "/about" },
       { name: "Pricing Plan", link: "/price" },

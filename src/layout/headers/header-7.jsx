@@ -18,7 +18,7 @@ const HeaderSeven = () => {
                         <div className="row align-items-center">
                         <div className="col-6">
                             <div className="header-signin-logo">
-                                <Link href="/"><Image src={logo_white} alt="" /></Link> 
+                                <Link href="/"><Image src={logo_white} alt="" style={{maxHeight:'200px', maxWidth:'200px'}} /></Link> 
                             </div>
                         </div>
                         <div className="col-6">

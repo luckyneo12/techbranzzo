@@ -78,13 +78,13 @@ const ProjectArea = () => {
                                  
                               >
                                  <div className="tp-project__slider-wrapper">
-                                    <div className="tp-project__item d-flex align-items-center">
+                                    <div className="tp-project__item d-flex align-items-center object-contain">
                                        <div className="tp-project__thumb">
                                           <Image src={item.img_1} alt="theme-pure" />
                                        </div>
                                        <div className="tp-project__content">
-                                          <div className="tp-project__brand-icon">
-                                             <Image src={item.img_2} alt="theme-pure" />
+                                          <div className="tp-project__brand-icon " >
+                                             <Image src={item.img_2} alt="theme-pure" style={{ objectFit: 'contain',height:'100px', }} />
                                           </div>
                                           <div className="tp-project__title-box">
                                              <h4 className="tp-project__title-sm">
