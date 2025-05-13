@@ -15,54 +15,59 @@ const menu_data = [
   {
     id: 2,
     mega_menu: false,
-    has_dropdown: true,
-    title: "Pages",
+    has_dropdown: false,
+    title: "About",
     link: "/about",
     active: "",
-    sub_menus: [
-      { link: "/about", title: "About" },
-      { link: "/service", title: "Service" },
-      { link: "/team", title: "Team" },
-      { link: "/career", title: "Career" },
-      { link: "/price", title: "Price" },
-      { link: "/register", title: "Register" },
-      { link: "/sign-in", title: "Signin" },
-    ],
+    // sub_menus: [
+    //   { link: "/about", title: "About" },
+    //   { link: "/service", title: "Service" },
+    //   { link: "/team", title: "Team" },
+    //   { link: "/career", title: "Career" },
+    //   { link: "/price", title: "Price" },
+    //   { link: "/register", title: "Register" },
+    //   { link: "/sign-in", title: "Signin" },
+    // ],
   },
   
   {
     id: 3,
     mega_menu: false,
-    has_dropdown: true,
+    has_dropdown: false,
     title: "Projects",
     link: "/project",
     active: "",
-    sub_menus: [
-      { link: "/project", title: "Project" },
-    ],
+    // sub_menus: [
+    //   { link: "/project", title: "Project" },
+    // ],
   },
 
   {
     id: 4,
     mega_menu: false,
-    has_dropdown: true,
+    has_dropdown: false,
     title: "Blog",
     link: "/blog",
     active: "",
-    sub_menus: [
-      { link: "/blog", title: "Blog" },
-    ],
+    
   },
   
   {
     id: 5,
     mega_menu: false,
     has_dropdown: false,
-    title: "Contact",
-    link: "/contact",
+    title: "Career",
+    link: "/career",
     active: "",
   },
   
-
+  {
+    id: 6,
+    mega_menu: false,
+    has_dropdown: false,
+    title: "Service",
+    link: "/service",
+    active: "",
+  },
 ];
 export default menu_data;

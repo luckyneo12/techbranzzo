@@ -27,7 +27,7 @@ const career_content ={
             which don't look even slightly believable. If you are going to use a passage
             of Lorem Ipsum,anything embarrassing hidden.</>,
             experiences: [
-                <>5+ years experience in backend engineering, <br />
+                <>2+ years experience in backend engineering, <br />
                 ideally in Python or Node</>,
                 <>Experience building and operating backend <br />
                 distributed systems</>,
@@ -102,11 +102,11 @@ const CareerDetailsArea = () => {
                            <div className="career-details-location-box">
                               <span> 
                                  <LocationIconThree />
-                                 London, UK
+                                 Indore, Madhya Pradesh
                               </span>
                               <span> 
                                  <ClockIcon />
-                                 Full-time
+                                 Full-time / Remote
                               </span>
                               <span>Senior</span>
                            </div>
@@ -235,7 +235,7 @@ const CareerDetailsArea = () => {
                                     <div className="switcher mb-15">
                                        <label htmlFor="toggle-0">
                                           <small className="switcher-icon"> 
-                                             Are you legally authorized to work in the <br /> United States?
+                                          Are you open to relocating or working from one of our <br/> office locations if required?
                                           </small>
                                           <input type="checkbox" id="toggle-0" />
                                           <span><small></small></span>
@@ -244,7 +244,7 @@ const CareerDetailsArea = () => {
                                     <div className="switcher">
                                        <label htmlFor="toggle-1">
                                           <small className="switcher-icon"> 
-                                             Do you or will you require sponsorship for a US <br /> employment visa (e.g. H-1B)?
+                                          Are you legally eligible to work in India?
                                           </small>
                                           <input type="checkbox" id="toggle-1" />
                                           <span><small></small></span>
@@ -282,16 +282,18 @@ const CareerDetailsArea = () => {
                         }
                         <div className="col-xxl-12">
                            <div className="career-details-social-box mb-20">
-                              <Link className="facebook" href="#"><i className="fab fa-facebook-f"></i></Link>
-                              <Link className="twitter" href="#"><i className="fab fa-twitter"></i></Link>
-                              <Link className="instagram p-relative" href="#">
+                              <Link className="facebook" href="https://www.facebook.com/profile.php?id=61574884286767">
+                              <i className="fab fa-facebook-f"></i>
+                              </Link>
+                              <Link className="twitter" href="https://in.pinterest.com/branzzot/"><i className="fab fa-pinterest"></i></Link>
+                              <Link className="instagram p-relative" href="https://www.instagram.com/tech_branzzo/?hl=en">
                                  <div className="insta-bg"></div>
                                  <i className="fab fa-instagram"></i>
                               </Link>
-                              <Link className="linkedin" href="#"><i className="fab fa-linkedin-in"></i></Link>
+                              <Link className="linkedin" href="https://www.linkedin.com/in/tech-branzzo-086754353/"><i className="fab fa-linkedin-in"></i></Link>
                            </div>
                            <div className="career-details-bottom-text text-center">
-                              <Link href="#">Employee at Softec?</Link>
+                              <Link href="/">Employee at Tech Branzzo?</Link>
                            </div>
                         </div>
                      </div>

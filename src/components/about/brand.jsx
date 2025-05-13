@@ -3,18 +3,18 @@ import React from 'react';
 
 
 // brand img import here 
-import brand_img_1 from "../../../public/assets/img/brand/brand-inner-1.png"
-import brand_img_2 from "../../../public/assets/img/brand/brand-inner-2.png"
-import brand_img_3 from "../../../public/assets/img/brand/brand-inner-3.png"
-import brand_img_4 from "../../../public/assets/img/brand/brand-inner-4.png"
-import brand_img_5 from "../../../public/assets/img/brand/brand-inner-5.png"
-import brand_img_6 from "../../../public/assets/img/brand/brand-inner-6.png"
-import brand_img_7 from "../../../public/assets/img/brand/brand-inner-7.png"
-import brand_img_8 from "../../../public/assets/img/brand/brand-inner-8.png"
-import brand_img_9 from "../../../public/assets/img/brand/brand-inner-9.png"
+import brand_img_1 from "../../../public/assets/img/brand/project-img-stk1.png"
+import brand_img_2 from "../../../public/assets/img/brand/logo-khushali.png"
+import brand_img_3 from "../../../public/assets/img/brand/urbanshine.png"
+import brand_img_4 from "../../../public/assets/img/brand/tradeoxi.jpg"
+import brand_img_5 from "../../../public/assets/img/brand/drivisory.png"
+import brand_img_6 from "../../../public/assets/img/brand/project-school.png"
+import brand_img_7 from "../../../public/assets/img/brand/Triohub.png"
+// import brand_img_8 from "../../../public/assets/img/brand/brand-inner-8.png"
+// import brand_img_9 from "../../../public/assets/img/brand/brand-inner-9.png"
 
 const brand_content = {
-    titel: "Trusted by Thousands Business",
+    titel: "Trusted by Various Business",
     description: <>Join the growing number of startups and businesses choosing Tech Branzzo to build their digital future.</>,
     
     brand_img: [
@@ -25,8 +25,8 @@ const brand_content = {
         {img: brand_img_5, delay: ".9s"},
         {img: brand_img_6, delay: "1s"},
         {img: brand_img_7, delay: "1.1s"},
-        {img: brand_img_8, delay: "1.2s"},
-        {img: brand_img_9, delay: "1.3s"},
+        // {img: brand_img_8, delay: "1.2s"},
+        // {img: brand_img_9, delay: "1.3s"},
 
     ]
 }

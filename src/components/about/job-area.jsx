@@ -94,7 +94,7 @@ const JobArea = ({style_carrer}) => {
                         <div className=" col-lg-3 col-md-3">
                            <div className="job-post-apply-btn text-start text-md-end">
                               <Link className="tp-btn-inner tp-btn-hover alt-color-orange" 
-                              href="/career-details"><span>Apply</span> <b></b>
+                              href= {`/career-details/${item.id}`} ><span>Apply</span> <b></b>
                               </Link>
                            </div>
                         </div>
