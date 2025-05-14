@@ -30,7 +30,6 @@ const footer_content = {
                 {name: "CRM", link: "#"},
                 {name: "About", link: "/about"},
                 {name: "Pricing Plan", link: "/price"},
-                {name: "Integrations", link: "/integrations"},
                 {name: "Blog", link: "/blog"},
                 {name: "Contact", link: "/contact"},
             ]
@@ -42,12 +41,11 @@ const footer_content = {
             title: "Other Pages",
             delay: ".9s",
             links: [
-                {name: "Features", link: "#"},
+                {name: "Products", link: "/Products"},
                 {name: "Team", link: "/team"},
-                {name: "Careers", link: "#"},
-                {name: "Login", link: "/login"},
-                {name: "Register", link: "/register"},
-                {name: "404 Not found", link: "/error"},
+                {name: "Projects", link: "/projects"},
+                {name: "Terms And Condition", link: "/Terms-and-Condition"},
+                {name: "Privacy Policy", link: "/Privacy Policy"},
             ]
         },
 

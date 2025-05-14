@@ -1,0 +1,48 @@
+.text-gradient {
+  background: linear-gradient(to right, #2563eb, #7c3aed);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.tp-link-btn {
+  display: inline-flex;
+  align-items: center;
+  color: #2563eb;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.tp-link-btn:hover {
+  color: #1e40af;
+  transform: translateX(5px);
+}
+
+.tp-text {
+  color: #4b5563;
+  font-size: 1.1rem;
+  line-height: 1.7;
+}
+
+.tp-sub-title {
+  color: #2563eb;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 0.9rem;
+}
+
+.vcard-section {
+  position: relative;
+  overflow: hidden;
+}
+
+.vcard-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(135deg, rgba(37, 99, 235, 0.05) 0%, rgba(124, 58, 237, 0.05) 100%);
+  z-index: 0;
+} 

@@ -26,10 +26,9 @@ const footer_content = {
             title: "Navigation",
             delay: ".7s",
             links: [
-                {name: "Damo page", link: "#"},
+                {name: "Home", link: "/"},
                 {name: "About", link: "/about"},
                 {name: "Pricing Plan", link: "/price"},
-                {name: "Integrations", link: "/integrations"},
                 {name: "Blog", link: "/blog"},
                 {name: "Contact", link: "/contact"},
             ]
@@ -41,12 +40,12 @@ const footer_content = {
             title: "Other Pages",
             delay: ".9s",
             links: [
-                {name: "Features", link: "#"},
+                {name: "Projects", link: "/project"},
                 {name: "Team", link: "/team"},
-                {name: "Careers", link: "#"},
+                {name: "Careers", link: "/career"},
                 {name: "Login", link: "/login"},
-                {name: "Register", link: "/register"},
-                {name: "404 Not found", link: "/404"},
+                {name: "Terms And Condition", link: "/Terms-and-Condition"},
+                {name: "Privacy Policy", link: "/Privacy Policy"},
             ]
         },
 

@@ -12,9 +12,9 @@ import google_ply from "../../../public/assets/img/footer/dwnld-3.png";
 
 
 const footer_content = {
-    address: <>1811 Silverside Rd, Wilmington,<br />DE 19810, USA</>,
-    phone: "+806(000)8899",
-    email: "contact@info.com",
+    address: <>Omega Tower 4th-Floor,<br />Indore ,Madhya Pradesh ,India</>,
+    phone: "+91 6269957381",
+    email: "branzzotechnologies@gmail.com",
     download: "Download App", 
     footer_lisks : [
         {
